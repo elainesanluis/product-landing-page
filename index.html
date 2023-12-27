@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.cdnfonts.com/css/jura" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a617d62171.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+
+  <section id="section4">
+    <!-- User Story#1 -->
+    <header id="header">
+      <!-- User Story#2 -->
+      <a href="#section4"><img src="./image/steamdecklogo.png" alt="logo" id="header-img"></a>
+      <input type="checkbox" id="menu" hidden>
+      <label class="header-label" for="menu">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <!-- User Story#3 -->
+      <nav id="nav-bar">
+        <label class="header-label" for="menu">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+        <!-- User Story#4 -->
+        <ul>
+          <li><a href="#section1" class="nav-link">Hardware</a></li>
+          <li><a href="#section2" class="nav-link">Software</a></li>
+          <li><a href="#section3" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+  </section>
+
+  <main>
+    <div class="container">
+      <!-- User Story#6 -->
+      <video id="video"
+        poster="https://cdn.cloudflare.steamstatic.com/steamdeck/images/press/renderings/rendering01.jpg" preload=""
+        autoplay="" muted="" playsinline="" loop="">
+        <source
+          src="https://cdn.cloudflare.steamstatic.com/steamdeck/images/video/hero_banner_sequence_colored_r03_1080p_h264_9MB.mp4"
+          type="video/mp4">
+      </video>
+    </div>
+    <!-- User Story#5 -->
+    <section id="section1">
+      <br />
+      <br />
+      <div class="hardware">
+        <h2 class="hardware-text">The world's most feature-rich gaming right at your fingertips.
+        </h2>
+        <h3 class="hardware-description">We partnered with AMD to create Steam Deck's custom APU, optimized for handheld
+          gaming. It is a Zen 2 + RDNA 2 powerhouse, delivering more than enough performance to run the latest AAA games
+          in a very efficient power envelope.
+        </h3>
+      </div>
+      <div class="image-container">
+        <div class="valve"><img id="valve-image" src="/image/valve.jpg" alt="valve" />
+      </div>
+      </div>
+        <div class="controls">
+      </div>
+    </section>
+    <br />
+    <section id="section2">
+      <br />
+      <br />
+      <br />
+      <div class="software-textcontainer">
+        <h1 class="software-text">
+          Elevating User Experience with Exciting Features!
+        </h1>
+        <br />
+      </div>
+      <div class="software-grid">
+        <div class="software-gridtext">
+          <h2>Steam Chat</h2>
+          <h3>Your friends are all here—access Steam Chat at the push of a button.</h3>
+        </div>
+
+        <div class="software-gridtext">
+          <h2>Notifications</h2>
+          <h3>All notifications are now in one place, so you can check-in without leaving your game.</h3>
+        </div>
+
+        <div class="software-gridtext">
+          <h2>Cloud Saves</h2>
+          <h3>Start playing on a PC and pick up right where you left off on Deck or vice versa.</h3>
+        </div>
+
+        <div class="software-gridtext">
+          <h2>Remote Play</h2>
+          <h3>Stream games from your home PC directly to your Deck no matter where you are.</h3>
+        </div>
+
+        <div class="software-gridtext">
+          <h2>Store</h2>
+          <h3>The entire Steam Store experience is accessible from Deck.</h3>
+        </div>
+
+        <div class="software-gridtext">
+          <h2>Community</h2>
+          <h3>Keep up to date with friends, news, and all the latest activity from Steam.</h3>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="software">
+        <img class="software-image"
+          src="https://cdn.cloudflare.steamstatic.com/steamdeck/images/ver2/software_playing_stardew.jpg"
+          alt="software">
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </section>
+    <section id="section3">
+      <!-- User Story#7 -->
+      <div class="section3-container">
+        <h1 class="form-h1beg">Level Up Your Gaming Experience Today!</h1>
+      </div>
+      <div class="form-container">
+        <br />
+        <br />
+        <br />
+        <h2 class="form-subtext">Email us for order purchases and inquiries</h2>
+        <!--User Story#12 -->
+        <form id="form" action="/static_page.html" method="get"><br />
+          <!-- User Story#8,#9,#10 -->
+          <label class="form-label" for="email">Email</label>
+          <br />
+          <input id="email" type="email" name="email" placeholder="enter your email address"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required><br />
+          <br />
+          <label class="form-label" for="message">Message</label><br />
+          <textarea id="textarea" name="message" rows="10" cols="80" required></textarea>
+          <br />
+          <!-- User Story#11 -->
+          <br />
+          <input type="submit" id="submit" value="Submit">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </form>
+      </div>
+      <br />
+      <br />
+      <br />
+    </section>
+  </main>
+
+<!-- User story 13,14,15 are in style.css -->
+
+
+
+
+  <!-- <script src="script.js"></script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> -->
+</body>
+
+</html>
